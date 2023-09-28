@@ -1,0 +1,67 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgb(95, 22, 95);
+}
+
+#valores{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+#valores input{
+    color: rgb(95, 22, 95);
+    background-color: rgb(248, 175, 248);
+    border: 0;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 26px;
+}
+
+.content{
+    background-color: violet;
+    padding: 50px;  
+    border-radius: 26px;
+}
+
+.titulo{
+    padding: 10px;
+}
+
+.valorInativo input{
+background-color: transparent;
+background-repeat:no-repeat;
+border: 0;
+cursor:pointer;
+font-size: 20px;
+margin: 25px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.valorInativo{
+    margin-top: 10px;
+}
+html{
+    color:rgb(95, 22, 95) ;
+    background-color: rgb(248, 175, 248);
+}
